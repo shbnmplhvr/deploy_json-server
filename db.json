@@ -1,15 +1,277 @@
 {
-    "users":
-    [
+    "disorders": [
         {
             "id": 1,
-            "name": "John",
-            "email": "john@email.com"
+            "disorder": "diabetes"
         },
         {
             "id": 2,
-            "name": "jane",
-            "email": "jane@email.com"
+            "disorder": "hypertension"
+        }
+       
+    ],
+        "tracks": [
+        {
+            "id": 1,
+            "name": "checklist",
+            "disorder_id": 1
+        },
+        {
+            "id": 2,
+            "name": "evaluation",
+            "disorder_id": 1
+        },
+        {
+            "id": 3,
+            "name": "checklist",
+            "disorder_id": 2
+        },
+        {
+            "id": 4,
+            "name": "evaluation",
+            "disorder_id": 2
+        }
+    ],
+    "trackitems": [
+        {
+            "id": 1,
+            "name":"Oral Pills",
+            "value": false,
+            "track_id": 1
+        },
+        {
+            "id": 2,
+            "name":"Insulin Injection",
+            "value": false,
+            "track_id": 1
+        },
+        {
+            "id": 3,
+            "name":"Blood Suger Monitoring",
+            "value": false,
+            "track_id": 1
+        },
+        {
+            "id": 4,
+            "name":"No Suger",
+            "value": false,
+            "track_id": 1
+        },
+        {
+            "id": 5,
+            "name":"No Fat",
+            "value": false,
+            "track_id": 1
+        },
+        {
+            "id": 6,
+            "name":"No Smocke",
+            "value": false,
+            "track_id": 1
+        },
+        {
+            "id": 7,
+            "name":"No Alcohol",
+            "value": false,
+            "track_id": 1
+        },
+        {
+            "id": 8,
+            "name":"Carbohydtare Reduction",
+            "value": false,
+            "track_id": 1
+        },
+        {
+            "id": 9,
+            "name":"daily exercise",
+            "value": false,
+            "track_id": 1
+        },
+        {
+            "id": 10,
+            "name":"Less Animal Products",
+            "value": false,
+            "track_id": 1
+        },
+        {
+            "id": 11,
+            "name": "Blurred Vision",
+            "value": false,
+            "track_id": 2
+        },
+        {
+            "id": 12,
+            "name":"Body Pain",
+            "value": false,
+            "track_id": 2
+        },
+        {
+            "id": 13,
+            "name": "Intence Hunger",
+            "value": false,
+            "track_id": 2
+        },
+        {
+            "id": 14,
+            "name":"Intece Thirst",
+            "value": false,
+            "track_id": 2
+        },
+        {
+            "id": 15,
+            "name": "Fatige",
+            "value": false,
+            "track_id": 2
+        },
+        {
+            "id": 16,
+            "name":"Frequent Urination",
+            "value": false,
+            "track_id": 2
+        },
+        {
+            "id": 17,
+            "name": "Tingling in hands",
+            "value": false,
+            "track_id": 2
+        },
+        {
+            "id": 18,
+            "name":"Numbless in the Feet",
+            "value": false,
+            "track_id": 2
+        },
+        {
+            "id": 19,
+            "name": "Slow healing of Cuts",
+            "value": false,
+            "track_id": 2
+        },
+        {
+            "id": 20,
+            "name":"vaginal Infection",
+            "value": false,
+            "track_id": 2
+        },
+        {
+            "id": 21,
+            "name":"Oral Pills",
+            "value": false,
+            "track_id": 3
+        },
+        {
+            "id": 22,
+            "name":"Reduction Animal Producs",
+            "value": false,
+            "track_id": 3
+        },
+        {
+            "id": 23,
+            "name":"Carbohydtare reduction",
+            "value": false,
+            "track_id": 3
+        },
+        {
+            "id": 24,
+            "name":"Blood Pressure Monitoring",
+            "value": false,
+            "track_id": 3
+        },
+        {
+            "id": 25,
+            "name":"Salt Reduction",
+            "value": false,
+            "track_id": 3
+        },
+        {
+            "id":26,
+            "name":"daily exercise",
+            "value": false,
+            "track_id": 3
+        },
+        {
+            "id": 27,
+            "name":"No Suger",
+            "value": false,
+            "track_id": 3
+        },
+        {
+            "id": 28,
+            "name":"No Smocke",
+            "value": false,
+            "track_id": 3
+        },
+        {
+            "id": 29,
+            "name":"No Fat",
+            "value": false,
+            "track_id": 3
+        },
+        {
+            "id": 30,
+            "name":"No Alcohol",
+            "value": false,
+            "track_id": 3
+        },
+        {
+            "id": 31,
+            "name":"Irregular Heartbeat",
+            "value": false,
+            "track_id": 4
+        },
+        {
+            "id": 32,
+            "name":"Headache",
+            "value": false,
+            "track_id": 4
+        },
+        {
+            "id": 33,
+            "name":"Chest Pain",
+            "value": false,
+            "track_id": 4
+        },
+        {
+            "id": 34,
+            "name":"Vision Problem",
+            "value": false,
+            "track_id": 4
+        },
+        {
+            "id": 35,
+            "name":"Difficulty Breathing",
+            "value": false,
+            "track_id": 4
+        },
+        {
+            "id": 36,
+            "name":"Fatige",
+            "value": false,
+            "track_id": 4
+        },
+        {
+            "id": 37,
+            "name":"Blood in Urination",
+            "value": false,
+            "track_id": 4
+        },
+        {
+            "id": 38,
+            "name":"Dizziness",
+            "value": false,
+            "track_id": 4
+        },
+        {
+            "id": 39,
+            "name":"Nausia",
+            "value": false,
+            "track_id": 4
+        },
+        {
+            "id": 40,
+            "name":"Confusion",
+            "value": false,
+            "track_id": 4
         }
     ]
 }
